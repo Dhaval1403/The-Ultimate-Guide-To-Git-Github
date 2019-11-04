@@ -44,29 +44,29 @@ _4. Open **Git Bash** and cd into the folder that you created in the above step.
 
 _Below are all the commands that we will learn:_
 
-_- **`git init`**_
+_**`git init`**_
 
-_- **git remote add origin "your_github_repo_url"**_
+_**`git remote add origin "your_github_repo_url`"**_
 
-_- **git remote**_
+_**`git remote`**_
 
-_- **git remote -v**_
+_**`git remote -v`**_
 
-_- **git status**_
+_**`git status`**_
 
-_- **git diff**_
+_**`git diff`**_
 
-_- **git add "filename"**_
+_**`git add "filename"`**_
 
-_- **git add .**_
+_**`git add .`**_
 
-_- **git commit -m "Initial Commit"**_
+_**`git commit -m "Initial Commit"`**_
 
-_- **git push**_
+_**`git push`**_
 
-_- **git config --global user.name "Your name"**_
+_**`git config --global user.name "Your name"`**_
 
-_- **git config --global user.email "Your email"**_
+_**`git config --global user.email "Your email"`**_
 
 _Don't worry. We will see what each command is in the following section. The fun part begins.. So, let's get started :)_
 
