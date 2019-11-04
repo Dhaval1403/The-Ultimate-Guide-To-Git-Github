@@ -80,23 +80,23 @@ _**Disclaimer:** You need to initialize your local repository as a git repositor
 
 _You may have notice one thing over here i.e, we have an empty "demo.txt" file in our local folder. But, in the remote repository that you have created there is no such file. Hm.. Strange right?? Well the answer is simple. It's because git doesn't know where the remote repository is. For now git will just track the local files because it doesn't have any connection with remote repository. So, how to add the remote repository?? It's just a matter of 1 command._
 
-_**`git remote add origin "your_github_repo_url"`** => It simply adds your remote repository and gives the name as **origin**_
+_**`git remote add origin "your_github_repo_url"`** --> It simply adds your remote repository and gives the name as **origin**_
 
 _Now, to verify that your remote repository has been added properly or not just run the below command_
 
-_**`git remote`** => It will give the name of the remote repository. For e.g, in our case it would be **origin**_
+_**`git remote`** --> It will give the name of the remote repository. For e.g, in our case it would be **origin**_
 
-_**`git remote -v`** => It will give the name as well as the url of the remote repository. For e.g, in our case it would be **origin "your_github_repo_url"**_
+_**`git remote -v`** --> It will give the name as well as the url of the remote repository. For e.g, in our case it would be **origin "your_github_repo_url"**_
 
 _That's all.. We have successfully added our remote repository. Let's move on to the next step._
 
 _Now, let's say you have modified the "demo.txt" file that you created earlier and added some text (For e.g, "Hello there!!!"). Git is smart enough to track the changes that you have made to the file. But, there's some gotcha over here. Let's find out_
 
-_**`git status`** => It will show you the files in your Working Tree and the files in your Staging Area. In simple terms, it will show you exactly which files/folders have been modified. In our case it will show that **demo.txt** file has been modified._
+_**`git status`** --> It will show you the files in your Working Tree and the files in your Staging Area. In simple terms, it will show you exactly which files/folders have been modified. In our case it will show that **demo.txt** file has been modified._
 
-_**`git add "filename"`** => It will add your file to the staging area. For e.g, **git add demo.txt**_
+_**`git add "filename"`** --> It will add your file to the staging area. For e.g, **git add demo.txt**_
 
-_**`git add .`** => If we add a '.' instead of filename then it will add all your files to the staging area. For e.g, **git add .**_
+_**`git add .`** --> If we add a '.' instead of filename then it will add all your files to the staging area. For e.g, **git add .**_
 
 _Now, you may wonder that what's working tree & staging area?? So, let's find out._
 
@@ -118,7 +118,7 @@ _**`git diff`** => It will show the difference between a file in the staging are
 
 _Let's understand **git diff** with a small example. Assume that your "demo.txt" file is empty. Now, run "git add demo.txt" command to add your file to the staging area. If our file gets added to the staging area then git will track all the changes that we have made. Add some text in your "demo.txt" file and before adding your file to the staging area just run the "git diff"._
 
-_**`git commit -m "Your commit message"`** => It will save your changes to your local repository. It's generally good practice to include commit message so that you'll know what changes you have made. The **`-m`** flag is used to write down your commit message._
+_**`git commit -m "Your commit message"`** --> It will save your changes to your local repository. It's generally good practice to include commit message so that you'll know what changes you have made. The **`-m`** flag is used to write down your commit message._
 
 _Now, here's one more gotcha.. If you run the **`git commit`** command without saving your config variables, then git will throw out an error because they don't know that who's trying to make a commit. For that reason, we will need to add the config variables i.e, "name" & "email". So, how to add it?? It's very simple.. Just run the below 2 commands and that's it._
 
@@ -128,13 +128,13 @@ _**`git config --global user.email "Your email"`**_
 
 _How to verify that your config variables are added to the config file??_
 
-_**`git config --list`** => It will list all the config variables. Search for your name & email and if you find out then it's been added to the config file._
+_**`git config --list`** --> It will list all the config variables. Search for your name & email and if you find out then it's been added to the config file._
 
 _Now, up untill now all the changes that we have made lives in our local repository, right?? Remember we have also created a repository on github as well. In our local repository we do have a file named "demo.txt" but there's no such file in our remote repository. So, how to push the changes that we have made in our local repository to the remote repository. Let's find out.._
 
 _(**NOTE:** When you'll run this command it will ask you for your github login credentials so just provide it)_
 
-_**`git push origin master`** => It will just push all the changes from (**local -> remote**) repository. Remember, how we added our remote repository through "git remote add origin ..." command. So, the push command simply says that whatever we have in our local repository just push them in the remote repository. And in our case the remote is **origin**._
+_**`git push origin master`** --> It will just push all the changes from (**local -> remote**) repository. Remember, how we added our remote repository through "git remote add origin ..." command. So, the push command simply says that whatever we have in our local repository just push them in the remote repository. And in our case the remote is **origin**._
 
 _You may also think think that what "master" is?? Don't worry, we will cover all those advanced topics in the Part - 2 of this series where we will cover topics such as.._
 
