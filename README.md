@@ -44,7 +44,7 @@ _4. Open **Git Bash** and cd into the folder that you created in the above step.
 
 _Below are all the commands that we will learn:_
 
-_- **git init**_
+_- **`git init`**_
 
 _- **git remote add origin "your_github_repo_url"**_
 
