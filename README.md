@@ -1,6 +1,6 @@
 # The-Ultimate-Guide-To-Git-Github
 
-_#What is Git & Github:_
+_**What is Git & Github:**_
 
 _Git can be very difficult to understand if you are using it for the first time. I myself had faced many problems when using it for the first time. But, with regularly using **Git and Github** now it seems a whole lot easier for me to work with. This is a simple guide for anyone who wants to learn git as efficiently and as fast as possible. I have tried my best to make this guide very easy to follow. So, without wasting any more time let's get started.. Shall we??_
 
